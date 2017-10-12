@@ -55,4 +55,23 @@ ul {
         background-color: rgba(0, 0, 0, 0.08);
         color: white; }
 
+.type-2 ul {
+  font-size: 0;
+  background-color: #3498db;
+  border-radius: 15px;
+  overflow: hidden; }
+  .type-2 ul li {
+    display: inline-block;
+    font-size: 16px;
+    border-right: solid 1px rgba(255, 255, 255, 0.08); }
+    .type-2 ul li:last-child {
+      border-right: none; }
+    .type-2 ul li a {
+      display: block;
+      padding: 14px 20px;
+      font-weight: bold; }
+      .type-2 ul li a:hover, .type-2 ul li a.active {
+        background-color: rgba(0, 0, 0, 0.08);
+        color: white; }
+
 /*# sourceMappingURL=main.css.map */
