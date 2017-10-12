@@ -1,2 +1,50 @@
 @charset "UTF-8";
 // global styles and resets.
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700&subset=cyrillic');
+
+body {
+  font-family: $font;
+  width: 900px;
+  margin: 0 auto;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1;
+
+}
+
+h2 {
+  margin: 0;
+  font-size: 22px;
+  color: #464646;
+  margin-bottom: 20px;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+
+  li {
+    list-style: none;
+    a {
+      -webkit-transition: all 300ms ease-in-out;
+      -moz-transition: all 300ms ease-in-out;
+      -ms-transition: all 300ms ease-in-out;
+      -o-transition: all 300ms ease-in-out;
+      transition: all 300ms ease-in-out;
+      text-decoration: none;
+      color: rgba(white, 0.85);
+      text-transform: capitalize;
+
+    }
+  }
+}
+
+.types {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: solid 1px #d9d9d9;
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
